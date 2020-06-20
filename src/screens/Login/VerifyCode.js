@@ -11,11 +11,11 @@ import {
   Alert,
 } from 'react-native';
 import Feather from 'react-native-vector-icons/Feather';
-import { TouchableOpacity } from 'react-native-gesture-handler';
-import { NavigationUtils } from '../../navigation';
-import { useFormik } from 'formik';
-import { useDispatch } from 'react-redux';
-import { resetPassword } from '../../redux/AuthRedux/operations';
+import {TouchableOpacity} from 'react-native-gesture-handler';
+import {NavigationUtils} from '../../navigation';
+import {useFormik} from 'formik';
+import {useDispatch} from 'react-redux';
+import {resetPassword} from '../../redux/AuthRedux/operations';
 
 const VerifyCode = () => {
   const [data, setData] = React.useState({
@@ -65,12 +65,12 @@ const VerifyCode = () => {
       resetNewpassword(values);
     },
   });
-  const resetNewpassword = async ({ code, newPassword }) => {
+  const resetNewpassword = async ({code, newPassword}) => {
     Keyboard.dismiss();
-    const result = await dispatch(resetPassword({ code, newPassword }));
+    const result = await dispatch(resetPassword({code, newPassword}));
 
     if (resetPassword.fulfilled.match(result)) {
-      NavigationUtils.push({ screen: 'Home' });
+      NavigationUtils.push({screen: 'Home'});
     } else {
       if (result.payload) {
         Alert.alert('Error', result.payload.message || 'error');
@@ -85,9 +85,9 @@ const VerifyCode = () => {
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     >
       <View style={styles.notice}>
-        <Text style={{ fontFamily: 'Roboto' }}>
-          We have sent a verify code include 6 numbers to your email entered, Please check your
-          email and fill in to the form
+        <Text style={{fontFamily: 'Roboto'}}>
+          We have sent a verify code include 6 numbers to your email entered,
+          Please check your email and fill in to the form
         </Text>
       </View>
 
@@ -153,7 +153,9 @@ const VerifyCode = () => {
             )}
           </TouchableOpacity>
         </View>
-        <Text style={{ color: 'red', fontFamily: 'Roboto-Light' }}>{data.errorPassword}</Text>
+        <Text style={{color: 'red', fontFamily: 'Roboto-Light'}}>
+          {data.errorPassword}
+        </Text>
       </View>
       <TouchableOpacity style={styles.btnSubmit} onPress={formik.handleSubmit}>
         <Text style={styles.textSend}>Submit</Text>
@@ -166,7 +168,7 @@ export default VerifyCode;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffcc00',
+    backgroundColor: '#56aaff',
     alignItems: 'center',
     justifyContent: 'center',
   },

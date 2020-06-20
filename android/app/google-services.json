@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:462784289656:android:d341758aa0e3c19972c68d",
         "android_client_info": {
-          "package_name": "com.enouvo.rnbase"
+          "package_name": "com.enouvocafe"
         }
       },
       "oauth_client": [
@@ -35,7 +35,7 @@
               "client_id": "462784289656-m9kb3d7321lvrk09i8j97rqkufipl9th.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.enouvo.rnbase"
+                "bundle_id": "com.enouvocafe"
               }
             }
           ]

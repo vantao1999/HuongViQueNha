@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":react-native-navigation" external.linked.project.path="$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="EnouvoCafe" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":react-native-navigation" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="3.6.1" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="3.6.1" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="reactNative62Debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleReactNative62Debug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileReactNative62DebugSources" />
+        <afterSyncTasks>
+          <task>generateReactNative62DebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/main/res;file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62/res;file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/debug/res;file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62Debug/res;file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/generated/res/rs/reactNative62/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTest/res;file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/test/res;file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62/res;file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62/res;file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestDebug/res;file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testDebug/res;file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/generated/res/rs/androidTest/reactNative62/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/tmp/kotlin-classes/reactNative62Debug" />
+          <option name="classpath" value="$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/intermediates/compile_only_not_namespaced_r_class_jar/reactNative62Debug/R.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/20334fea6121857e1d1549d80d4c3fed/jetified-kotlin-android-extensions-runtime-1.3.61.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/18a8c50ec8fc22ad157c560704174d3b/jetified-core-ktx-1.1.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/23acaf12c347a5fb0b0e5060efd919a0/jetified-kotlin-stdlib-jdk8-1.3.61.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/4906fe49d10f6db518e3bdb7c6b68d94/jetified-ahbottomnavigation-3.2.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/9dc62818c44ba2589c8299b7632e0f47/material-1.2.0-alpha03-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/8b93f5f8198f4a2ada9a73f52661a81c/jetified-react-native-0.62.2-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/b7f4cf67fa2ea787b1ebbaa948096e66/appcompat-1.1.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/40ea24d854b07468b501695debd6e782/jetified-viewpager2-1.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/5a2026e8dbd486247c9fbcb2430c4c3d/fragment-1.1.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/bba962e8d607771a8ce5d7216c74a513/jetified-appcompat-resources-1.1.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/363f3daadf5628ef0dbde2ca3bc74f2a/drawerlayout-1.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/8fc4671d970743997415a96e1349a349/coordinatorlayout-1.1.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/7ac9d2bdc26dd5ad1eaaebfc3972f7e6/recyclerview-1.1.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/1462ee8e43778139584ebc9eddbdd173/transition-1.2.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/6ad7b749a6449785c52a33d192534611/vectordrawable-animated-1.1.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/a28b94cad6a071457849eb8c8b6b81ff/vectordrawable-1.1.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/d276f5f46ab8081e910d609d14c0c33b/viewpager-1.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/79d61ffe1705f6bfb995ca2a8addef12/loader-1.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/07c3fc65846d0a6664f7e80927d62195/jetified-activity-1.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/463fc55a82c897421c889ea466260098/customview-1.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/2116e36cf1fc2f5baa79f99428b7b393/core-1.1.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/ea45dd50cd70bf711af020be6bcbd3bf/cursoradapter-1.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/b12dda6e27eb80c64c8aaad25fe1cfc6/versionedparcelable-1.1.0-api.jar:/Users/hovantao/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/247fdd84be4cf82766cd70367b38604a/cardview-1.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/186cc0640d376688fa2a90c978051dd8/lifecycle-runtime-2.1.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/b0b1f85d2cd2596157e6b2cda0fca9ef/lifecycle-viewmodel-2.1.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/475d87b7ed7cf87d2a4aca01638f45b5/jetified-savedstate-1.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/e66eb145d6590ea530f3195f4425824c/lifecycle-livedata-2.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/455d88f060203889538dd1fd8f276cb4/lifecycle-livedata-core-2.0.0-api.jar:/Users/hovantao/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.1.0/c67e7807d9cd6c329b9d0218b2ec4e505dd340b7/lifecycle-common-2.1.0.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/3f41e4a8dafa25c6a5dfdde8b9308968/core-runtime-2.0.0-api.jar:/Users/hovantao/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/819c8f60cb28fd3e1b1f9057908c0530/interpolator-1.0.0-api.jar:/Users/hovantao/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/df878adda97bc6c128ad67b7a7601ace/jetified-reflow-animator-1.0.6-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/06cf3598ff19a56e8ce7b3be5cd0ff0e/jetified-fab-1.6.4-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/96ff8b1cee2c901794453178c91aff5d/jetified-kotlin-stdlib-jdk7-1.3.61.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/df75dfd25f818ebec46f448aa0c2ffb3/jetified-kotlin-stdlib-1.3.61.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/dc3345cb6bad1d9af5809c0a61feaa68/jetified-kotlin-stdlib-common-1.3.61.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/f978ae69539a204b6f8ce3861cc3008c/jetified-annotations-13.0.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/1cea73276628a055070d016c85fa8aa6/jetified-annotation-experimental-1.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/529183173c6ad8eb6bd65008fb87650e/jetified-infer-annotation-0.11.2.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/28df892f21a534d0d5202f13b54fb185/jetified-jsr305-3.0.2.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/a7b0cb0c58a6d017121863dc7afafa76/jetified-proguard-annotations-1.14.1.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/ffb607eb8c263e656d951f6ed85888e2/jetified-javax.inject-1.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/3cfc39fae7c8cf35ba92c91182987fcd/jetified-fresco-2.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/d6bf5557a4173e128add02c1f46f70c4/jetified-fbcore-2.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/c701f0b748908d06a3d890f263c52d36/jetified-drawee-2.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/56090450db590ecad75b6814855a331c/jetified-imagepipeline-2.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/1cc4da6532f4c59235baf587a2d8563a/jetified-imagepipeline-base-2.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/ad1dd86eacd34361a22e70e61e110541/jetified-soloader-0.8.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/3ca52e268b15e7a3fec17a736abd3dcd/jetified-annotation-0.8.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/76e9f739123c2577850ef65a6c157a99/jetified-nativeloader-0.8.0.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/1996aa915bf0400c627997bb7b67ab0c/jetified-nativeimagefilters-2.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/b2c406edae231b81457ca9901635d0c2/jetified-nativeimagetranscoder-2.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/92518977ee04e41a8406c14d96533292/jetified-imagepipeline-okhttp3-2.0.0-api.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/f95ab5e59336a2f48844028f3686f6e3/jetified-okhttp-urlconnection-3.12.1.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/47606dadfb626650185acfa1bffb009b/jetified-okhttp-3.12.1.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/3afeeec45d1f1184b9f0a246b017fe11/jetified-okio-1.15.0.jar:/Users/hovantao/.gradle/caches/transforms-2/files-2.1/bd8357a8a04287474e73a08c496e38a6/jetified-fbjni-java-only-0.0.3.jar:/Users/hovantao/Library/Android/sdk/platforms/android-28/android.jar:/Users/hovantao/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="react-native-navigation_reactNative62Debug" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.61/54ca7c214a5cd73cd887a42002266e25440097f2/kotlin-android-extensions-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.3.61/c35c0833d5a1e3d229359758482c480306724618/kotlin-compiler-embeddable-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.3.61/4de83e41a92c8395d89ab2e81d26b788ba163824/kotlin-daemon-embeddable-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.61/2e07c9a84c9e118efb70eede7e579fd663932122/kotlin-reflect-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.61/e5feb39c8de63dcbdc1154b34ca4413874231605/kotlin-script-runtime-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/65abb71d5afb850b68be03987b08e2c864ca3110/kotlin-stdlib-common-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.61/4702105e97f7396ae41b113fdbdc180ec1eb1e36/kotlin-stdlib-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/intermediates/javac/reactNative62Debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/intermediates/javac/reactNative62DebugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/generated/ap_generated_sources/reactNative62Debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/generated/aidl_source_output_dir/reactNative62Debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/generated/source/buildConfig/reactNative62/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/generated/renderscript_source_output_dir/reactNative62Debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/generated/res/rs/reactNative62/debug" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62Debug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62Debug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62Debug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62Debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62Debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62Debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62Debug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/generated/ap_generated_sources/reactNative62DebugAndroidTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/generated/aidl_source_output_dir/reactNative62DebugAndroidTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/generated/source/buildConfig/androidTest/reactNative62/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/generated/renderscript_source_output_dir/reactNative62DebugAndroidTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/generated/res/rs/androidTest/reactNative62/debug" type="java-test-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62Debug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62Debug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62Debug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62Debug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62Debug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62Debug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62Debug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build/generated/ap_generated_sources/reactNative62DebugUnitTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62Debug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62Debug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62Debug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62Debug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62Debug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62Debug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62Debug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/reactNative62/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestReactNative62/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testReactNative62/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/debug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/debug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/debug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/debug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/testDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/main/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/main/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/main/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTest/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTest/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/androidTest/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/src/test/shaders" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-navigation/lib/android/app/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.assertj:assertj-android:1.1.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:robolectric:4.3-beta-1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:shadows-framework:4.3-beta-1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:resources:4.3-beta-1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:junit:4.3-beta-1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:sandbox:4.3-beta-1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:plugins-maven-dependency-resolver:4.3-beta-1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:utils:4.3-beta-1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.auto.service:auto-service:1.0-rc4@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.auto:auto-common:0.8@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:guava:27.0.1-jre@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:2.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-library:1.3@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:pluginapi:4.3-beta-1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:shadowapi:4.3-beta-1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:annotations:4.3-beta-1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-ant-tasks:2.1.3@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.ant:ant:1.8.0@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.ant:ant-launcher:1.8.0@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-project:2.2.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-artifact-manager:2.2.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-error-diagnostics:2.2.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-settings:2.2.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-profile:2.2.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-plugin-registry:2.2.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: classworlds:classworlds:1.1-alpha-2@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-artifact:2.2.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-model:2.2.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven.wagon:wagon-file:1.0-beta-6@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven.wagon:wagon-http-lightweight:1.0-beta-6@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven.wagon:wagon-http-shared:1.0-beta-6@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven.wagon:wagon-provider-api:1.0-beta-6@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-repository-metadata:2.2.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.codehaus.plexus:plexus-utils:1.5.15@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.codehaus.plexus:plexus-interpolation:1.11@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: backport-util-concurrent:backport-util-concurrent:3.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: nekohtml:xercesMinimal:1.9.6.2@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: nekohtml:nekohtml:1.9.6.2@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:utils-reflector:4.3-beta-1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.ow2.asm:asm-commons:7.0@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.ow2.asm:asm-util:7.0@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.ow2.asm:asm-analysis:7.0@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.ow2.asm:asm-tree:7.0@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.ow2.asm:asm:7.0@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:failureaccess:1.0.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.checkerframework:checker-qual:2.5.2@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.errorprone:error_prone_annotations:2.2.0@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.j2objc:j2objc-annotations:1.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.17@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: javax.annotation:javax.annotation-api:1.3.2@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.almworks.sqlite4java:sqlite4java:0.282@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.ibm.icu:icu4j:53.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.protobuf:protobuf-java:2.6.1@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.52@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.assertj:assertj-core:3.8.0@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.mockito:mockito-core:2.28.2@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.bytebuddy:byte-buddy:1.9.10@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.bytebuddy:byte-buddy-agent:1.9.10@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.objenesis:objenesis:2.6@jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:monitor:1.2.0-beta01@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.61@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.61@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.61@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.infer.annotation:infer-annotation:0.11.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.yoga:proguard-annotations:1.14.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.soloader:nativeloader:0.8.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp-urlconnection:3.12.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.12.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.15.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fbjni:fbjni-java-only:0.0.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core-ktx:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.wix-playground:ahbottomnavigation:3.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.material:material:1.2.0-alpha03@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.react:react-native:0.62.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat-resources:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.recyclerview:recyclerview:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.transition:transition:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cardview:cardview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.wix-playground:reflow-animator:1.0.6@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.clans:fab:1.6.4@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:fresco:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:fbcore:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:drawee:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-base:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.soloader:soloader:0.8.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.soloader:annotation:0.8.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:nativeimagefilters:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:nativeimagetranscoder:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-okhttp3:2.0.0@aar" level="project" />
+  </component>
+</module>

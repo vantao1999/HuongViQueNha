@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EnouvoCafe.iml" filepath="$PROJECT_DIR$/.idea/modules/EnouvoCafe.iml" group="EnouvoCafe" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="EnouvoCafe/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/477916488/react-native-code-push.iml" filepath="$PROJECT_DIR$/.idea/modules/477916488/react-native-code-push.iml" group="EnouvoCafe/react-native-code-push" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/517337592/react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/517337592/react-native-community_async-storage.iml" group="EnouvoCafe/react-native-community_async-storage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2097887001/react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/2097887001/react-native-community_netinfo.iml" group="EnouvoCafe/react-native-community_netinfo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1042240244/react-native-community_viewpager.iml" filepath="$PROJECT_DIR$/.idea/modules/-1042240244/react-native-community_viewpager.iml" group="EnouvoCafe/react-native-community_viewpager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1511220794/react-native-config.iml" filepath="$PROJECT_DIR$/.idea/modules/-1511220794/react-native-config.iml" group="EnouvoCafe/react-native-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/60644737/react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/60644737/react-native-device-info.iml" group="EnouvoCafe/react-native-device-info" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/565042478/react-native-fast-image.iml" filepath="$PROJECT_DIR$/.idea/modules/565042478/react-native-fast-image.iml" group="EnouvoCafe/react-native-fast-image" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1576116298/react-native-firebase_analytics.iml" filepath="$PROJECT_DIR$/.idea/modules/1576116298/react-native-firebase_analytics.iml" group="EnouvoCafe/react-native-firebase_analytics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1334054629/react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/1334054629/react-native-firebase_app.iml" group="EnouvoCafe/react-native-firebase_app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-379251747/react-native-firebase_crashlytics.iml" filepath="$PROJECT_DIR$/.idea/modules/-379251747/react-native-firebase_crashlytics.iml" group="EnouvoCafe/react-native-firebase_crashlytics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1334877745/react-native-geocoder-reborn.iml" filepath="$PROJECT_DIR$/.idea/modules/1334877745/react-native-geocoder-reborn.iml" group="EnouvoCafe/react-native-geocoder-reborn" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-69595262/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-69595262/react-native-gesture-handler.iml" group="EnouvoCafe/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-541145163/react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-541145163/react-native-image-crop-picker.iml" group="EnouvoCafe/react-native-image-crop-picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-940545340/react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-940545340/react-native-image-picker.iml" group="EnouvoCafe/react-native-image-picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/550355860/react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/550355860/react-native-linear-gradient.iml" group="EnouvoCafe/react-native-linear-gradient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1529128077/react-native-localize.iml" filepath="$PROJECT_DIR$/.idea/modules/1529128077/react-native-localize.iml" group="EnouvoCafe/react-native-localize" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1599657184/react-native-navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/-1599657184/react-native-navigation.iml" group="EnouvoCafe/react-native-navigation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/684722068/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/684722068/react-native-vector-icons.iml" group="EnouvoCafe/react-native-vector-icons" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2019837365/react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/2019837365/react-native-webview.iml" group="EnouvoCafe/react-native-webview" />
+    </modules>
+  </component>
+</project>

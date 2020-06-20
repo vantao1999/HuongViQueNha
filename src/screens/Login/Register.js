@@ -1,25 +1,25 @@
 /* eslint-disable react-native/no-inline-styles */
-import React, { useRef } from 'react';
+import React, {useRef} from 'react';
 import {
   View,
   Text,
   TextInput,
   StyleSheet,
   KeyboardAvoidingView,
+  TouchableOpacity,
   Platform,
   Alert,
   Keyboard,
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import * as Animatable from 'react-native-animatable';
-import Feather from 'react-native-vector-icons/Feather';
-import { NavigationUtils } from '../../navigation';
-import { TouchableOpacity, ScrollView } from 'react-native-gesture-handler';
-import { useFormik } from 'formik';
+import Icon from 'react-native-vector-icons/Ionicons';
+import {NavigationUtils} from '../../navigation';
+import {ScrollView} from 'react-native-gesture-handler';
+import {useFormik} from 'formik';
 import * as Yup from 'yup';
-import { useDispatch } from 'react-redux';
-import { register } from '../../redux/AuthRedux/operations';
-// import { values } from 'lodash';
+import {useDispatch} from 'react-redux';
+import {register} from '../../redux/AuthRedux/operations';
 
 const TEXT_INPUT_USERNAME = 'TEXT_INPUT_USERNAME';
 const TEXT_INPUT_EMAIL = 'TEXT_INPUT_EMAIL';
@@ -90,8 +90,13 @@ const Register = () => {
     },
     validationSchema: Yup.object().shape({
       email: Yup.string().email('Invalid email').required('Required'),
-      username: Yup.string().min(2, 'Too Short!').max(70, 'Too Long!').required('Required'),
-      password: Yup.string().min(6, 'Password must be at less 6 character').required('Required'),
+      username: Yup.string()
+        .min(2, 'Too Short!')
+        .max(70, 'Too Long!')
+        .required('Required'),
+      password: Yup.string()
+        .min(6, 'Password must be at less 6 character')
+        .required('Required'),
       confirmPass: Yup.string().required('Required'),
     }),
     onSubmit: (values) => {
@@ -99,9 +104,9 @@ const Register = () => {
     },
   });
 
-  const handleRegister = async ({ email, username, password }) => {
+  const handleRegister = async ({email, username, password}) => {
     Keyboard.dismiss();
-    const data = { email, username, password };
+    const data = {email, username, password};
     const result = await dispatch(register(data));
     if (register.fulfilled.match(result)) {
       NavigationUtils.startMainContent();
@@ -136,14 +141,18 @@ const Register = () => {
       style={styles.container}
     >
       <View style={styles.header}>
-        <Text style={styles.text_header}>Register Now!</Text>
+        <Text style={styles.text_header}>Đăng Ký Tài Khoản!</Text>
       </View>
 
-      <Animatable.View style={styles.footer} animation="fadeInUp" duration={500}>
+      <Animatable.View
+        style={styles.footer}
+        animation="fadeInUp"
+        duration={500}
+      >
         <ScrollView showsVerticalScrollIndicator={false}>
-          <Text style={styles.text_footer}>Email</Text>
+          <Text style={styles.text_footer}>Số Điện Thoại</Text>
           <View style={styles.action}>
-            <Feather name="mail" color="#05375a" size={20} />
+            <Icon name="md-mail" color="#05375a" size={20} />
             <TextInput
               style={styles.textInput}
               type="email"
@@ -159,9 +168,9 @@ const Register = () => {
           </View>
           {/* <Text style={{ color: 'red' }}>{DATA.emailErr}</Text> */}
 
-          <Text style={[styles.text_footer, { marginTop: 20 }]}>User Name</Text>
+          <Text style={[styles.text_footer, {marginTop: 20}]}>Mật Khẩu</Text>
           <View style={styles.action}>
-            <Feather name="user" color="#05375a" size={20} />
+            <Icon name="ios-person" color="#05375a" size={20} />
             <TextInput
               style={styles.textInput}
               ref={usernameRef}
@@ -174,9 +183,9 @@ const Register = () => {
             />
           </View>
 
-          <Text style={[styles.text_footer, { marginTop: 20 }]}>Password</Text>
+          <Text style={[styles.text_footer, {marginTop: 20}]}>Tên</Text>
           <View style={styles.action}>
-            <Feather name="lock" color="#05375a" size={20} />
+            <Icon name="md-lock" color="#05375a" size={20} />
             <TextInput
               style={styles.textInput}
               ref={passRef}
@@ -190,16 +199,18 @@ const Register = () => {
             />
             <TouchableOpacity onPress={showSecureTextEntry}>
               {DATA.secureTextEntry ? (
-                <Feather name="eye-off" color="#05375a" size={20} />
+                <Icon name="md-eye-off" color="#05375a" size={20} />
               ) : (
-                <Feather name="eye" color="#05375a" size={20} />
+                <Icon name="md-eye" color="#05375a" size={20} />
               )}
             </TouchableOpacity>
           </View>
 
-          <Text style={[styles.text_footer, { marginTop: 20 }]}>Confirm Password</Text>
+          <Text style={[styles.text_footer, {marginTop: 20}]}>
+            Confirm Password
+          </Text>
           <View style={styles.action}>
-            <Feather name="lock" color="#05375a" size={20} />
+            <Icon name="md-lock" color="#05375a" size={20} />
             <TextInput
               style={styles.textInput}
               type="confirmPassword"
@@ -207,7 +218,9 @@ const Register = () => {
               value={formik.values.confirmPassword}
               placeholder="Confirm Your Password"
               onChangeText={formik.handleChange('confirmPassword')}
-              onSubmitEditing={() => onSubmitEditing(TEXT_INPUT_CONFIRM_PASSWORD)}
+              onSubmitEditing={() =>
+                onSubmitEditing(TEXT_INPUT_CONFIRM_PASSWORD)
+              }
               secureTextEntry={DATA.confirm_secureTextEntry ? true : false}
               errorMessage={formik.errors.confirmPassword}
               returnKeyType="go"
@@ -217,22 +230,30 @@ const Register = () => {
             />
             <TouchableOpacity onPress={showConfirm_Password}>
               {DATA.confirm_secureTextEntry ? (
-                <Feather name="eye-off" color="#05375a" size={20} />
+                <Icon name="md-eye-off" color="#05375a" size={20} />
               ) : (
-                <Feather name="eye" color="#05375a" size={20} />
+                <Icon name="md-eye" color="#05375a" size={20} />
               )}
             </TouchableOpacity>
           </View>
-          <Text style={{ color: 'red', fontFamily: 'Roboto-Light' }}>{DATA.errorPassword}</Text>
+          <Text style={{color: 'red', fontFamily: 'Roboto-Light'}}>
+            {DATA.errorPassword}
+          </Text>
           <View style={styles.button}>
             <TouchableOpacity onPress={formik.handleSubmit}>
-              <LinearGradient colors={['#fcdb55', '#f7e188']} style={styles.signIn}>
-                <Text style={[styles.textSign, { color: 'black' }]}>Sign Up</Text>
+              <LinearGradient
+                colors={['#56aaff', '#56a']}
+                style={styles.signIn}
+              >
+                <Text style={styles.textSign}>Sign Up</Text>
               </LinearGradient>
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => NavigationUtils.pop()} style={styles.signUp}>
-              <Text style={[styles.textSign, { color: '#ffcc00' }]}>Sign In</Text>
+            <TouchableOpacity
+              onPress={() => NavigationUtils.pop()}
+              style={styles.signUp}
+            >
+              <Text style={[styles.textSign, {color: '#56aaff'}]}>Sign In</Text>
             </TouchableOpacity>
           </View>
         </ScrollView>
@@ -244,7 +265,7 @@ export default Register;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffcc00',
+    backgroundColor: '#56aaff',
   },
   header: {
     flex: 1,
@@ -270,8 +291,8 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
   action: {
+    alignItems: 'center',
     flexDirection: 'row',
-    marginTop: 10,
     borderBottomWidth: 1,
     borderBottomColor: '#f2f2f2',
     paddingBottom: 5,

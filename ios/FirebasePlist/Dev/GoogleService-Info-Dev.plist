@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.enouvo.rnbase</string>
+	<string>com.enouvocafe</string>
 	<key>PROJECT_ID</key>
 	<string>rb-base-dev</string>
 	<key>STORAGE_BUCKET</key>

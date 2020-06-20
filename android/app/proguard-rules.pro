@@ -10,7 +10,7 @@
 # Add any project specific keep options here:
 
 # react-native-config
--keep class com.enouvo.rnbase.BuildConfig { *; }
+-keep class com.enouvocafe.BuildConfig { *; }
 
 # hermes
 -keep class com.facebook.hermes.unicode.** { *; }
